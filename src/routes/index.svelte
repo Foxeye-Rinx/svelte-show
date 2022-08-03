@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+  import Show from "$lib/Show.svelte";
+  let show = true;
+</script>
+<button on:click={() => { show = !show}}>
+  Click to Show/Hide Content
+</button>
+<Show {show}>
+  <div>Content</div>
+</Show>
