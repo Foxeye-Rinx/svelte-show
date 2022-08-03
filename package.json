@@ -1,6 +1,6 @@
 {
 	"name": "svelte-show",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"repository": "github:Foxeye-Rinx/svelte-show",
 	"scripts": {
 		"dev": "vite dev",
@@ -13,6 +13,10 @@
 		"lint": "prettier --check --plugin-search-dir=. . && eslint .",
 		"format": "prettier --write --plugin-search-dir=. ."
 	},
+	"keywords": [
+		"svelte",
+		"svelte-show"
+	],
 	"devDependencies": {
 		"@playwright/test": "^1.22.2",
 		"@sveltejs/adapter-auto": "next",
