@@ -16,3 +16,9 @@ This library is used for cases when we need to keep the HTML elements retain in 
   <div>Content</div>
 </Show>
 ```
+For TypeScript, import the same way:
+```svelte
+<script lang="ts">
+  import Show from "svelte-show/Show.svelte";
+  ...
+```

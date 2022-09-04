@@ -1,6 +1,6 @@
 {
 	"name": "svelte-show",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"repository": "github:Foxeye-Rinx/svelte-show",
 	"scripts": {
 		"dev": "vite dev",
